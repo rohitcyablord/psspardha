@@ -7,8 +7,7 @@ import { ManaManatTuPageComponent } from './mana-manat-tu-page/mana-manat-tu-pag
 const routes: Routes = [
   { path: 'landing', component: LandingPageComponent },
   { path: 'manaManatTu', component: ManaManatTuPageComponent },
-  { path: '', pathMatch: 'full', redirectTo: 'landing'  },
-  { path: '**', redirectTo: 'landing' }
+  { path: '', pathMatch: 'full', redirectTo: 'landing'  }
 ];
 
 @NgModule({
