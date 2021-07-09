@@ -12,3 +12,63 @@ nav{
 ._infoPanel{
   margin-top: 40px;
 }
+
+.card-body{
+  font-family: 'Poppins', sans-serif;
+
+  ._winnerTitle{
+    font-family: 'Yeseva One', cursive;
+    font-size: 3.8em;
+
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1vw;
+    background: rgba(255, 253, 160, 1);
+    background: -webkit-linear-gradient( left, #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation-name: masked-animation;
+    -webkit-animation-duration: 50s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+  }
+  ._winnerRank{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+  }
+
+
+  ._subWinnerTitle{
+    font-family: 'Yeseva One', cursive;
+    .priceMoney{
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.6em;
+    }
+
+  }
+  ._subWinnerRank{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
