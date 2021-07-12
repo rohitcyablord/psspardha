@@ -37,6 +37,13 @@ export class ManaManatTuPageComponent implements OnInit {
     return targetString;
   }
 
+  sayHI(theName) {
+    alert('Say Hi ' + theName);
+    theName = this.replacereString(theName);
+    alert(' after >> ' + theName);
+    window.open('localhost:4200/assets/certi/' + theName + '.pdf', '_blank');
+  }
+
 }
 
 // tslint:disable-next-line:class-name
