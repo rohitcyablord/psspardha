@@ -7,12 +7,14 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ManaManatTuPageComponent } from './mana-manat-tu-page/mana-manat-tu-page.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { BhaktiRangComponent } from './bhakti-rang/bhakti-rang.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    ManaManatTuPageComponent
+    ManaManatTuPageComponent,
+    BhaktiRangComponent
   ],
   imports: [
     BrowserModule,

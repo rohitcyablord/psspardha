@@ -15,10 +15,7 @@
           <a class="nav-link active" aria-current="page" href="#" routerLink="landing">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" routerLink="/manaManatTu">Mana Manat Tu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" tabindex="-1" href="#">Upcoming Spardha</a>
+          <a class="nav-link" tabindex="" href="#" routerLink="/bhaktiRang">Bhaktirang</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -30,6 +27,17 @@
             <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#swarajInfoten">Swaraj Infoten</a></li>
           </ul>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="oldCompDD" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Old Spardha
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="oldCompDD">
+            <li><a class="dropdown-item" href="#" routerLink="/manaManatTu">Mana Manat Tu</a></li>
+          </ul>
+        </li>
+
       </ul>
       <span class="navbar-text">
         Website Developed &amp; Sponsored by
@@ -136,7 +144,7 @@
       <div id="" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/nikal.jpg" class="d-block w-100" alt="..." routerLink="/manaManatTu" style="cursor: pointer;">
+            <img src="assets/img/new_comp.jpeg" class="d-block w-100" alt="..." routerLink="/bhaktiRang" style="cursor: pointer;">
           </div>
         </div>
       </div>
@@ -150,21 +158,13 @@
     <div class="col col-sm-10 col-md-8 offset-sm-1 offset-md-2 _mainActionPanel">
 
       <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">"Mana Manat Tu": Geet gayan Spardha </h5>
-              <p class="card-text">A music singing spardha to celebreate a speacial creation by Prafulla Shahane.</p>
-              <a href="#" class="btn btn-primary" routerLink="/manaManatTu">View Results</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
+        <div class="col-sm-12">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Bhakti Rang: Bhaktigeet Gayan Spardha</h5>
-              <p class="card-text">We are happy to announce that we will be launching new event on 15 July 2021.</p>
-              <a href="#" class="btn btn-primary disabled">More info soon</a>
+              <p class="card-text">We are happy to announce that we will be launching new event on 15 July
+                2021.</p>
+              <a href="#" routerLink="/bhaktiRang" class="btn btn-primary">Know More...</a>
             </div>
           </div>
         </div>
@@ -234,6 +234,16 @@
                 </small>
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">"Mana Manat Tu": Geet gayan Spardha </h5>
+            <p class="card-text">Thank You for the support and love.</p>
+            <a href="#" class="btn btn-primary" routerLink="/manaManatTu">View Results</a>
           </div>
         </div>
       </div>

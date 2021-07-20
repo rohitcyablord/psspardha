@@ -18,7 +18,7 @@
           <a class="nav-link active" href="#">Mana Manat Tu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" tabindex="-1" href="#">Upcoming Spardha</a>
+          <a class="nav-link" tabindex="" href="#" routerLink="/bhaktiRang">Bhaktirang</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -122,16 +122,15 @@
   <div class="row">
     <div class="col col-sm-10 col-md-8 offset-sm-1 offset-md-2 _mainBanner">
 
-      <!--
+      
       <div id="" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZJt4VHCJcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img src="assets/img/nikal.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
       </div>
-      -->
+      
 
     </div>
   </div>
@@ -334,25 +333,23 @@
 
           <table class="table table-responsive table-hover">
             <thead class="table-light">
-            <tr>
-              <th scope="col">Sr. No.</th>
-              <th scope="col">Name</th>
-              <th scope="col">City</th>
-              <th scope="col">Certificate Link</th>
-            </tr>
+              <tr>
+                <th scope="col">Sr. No.</th>
+                <th scope="col">Name</th>
+                <th scope="col">City</th>
+                <th scope="col">Certificate Link</th>
+              </tr>
             </thead>
             <tbody>
-
-            <tr *ngFor="let par of userArray">
-              <th scope="row">{{par.id}}</th>
-              <td>{{par.name | titlecase}}</td>
-              <td>{{par.city}}</td>
-              <td> Will be avalible soon </td>
-              <!--
-              <td> <a href="assets/certi/{{replacereString(par.name)}}.pdf" target="_blank"> Download Certificate </a> </td>
-              -->
-            </tr>
-
+              <tr *ngFor="let par of userArray">
+                <th scope="row">{{par.id}}</th>
+                <td>{{par.name | titlecase}}</td>
+                <td>{{par.city}}</td>
+                <td> Will be avalible soon </td>
+                <!--
+                <td> <a href="assets/certi/{{replacereString(par.name)}}.pdf" target="_blank"> Download Certificate </a> </td>
+                -->
+              </tr>
             </tbody>
           </table>
 
